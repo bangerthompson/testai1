@@ -1,0 +1,107 @@
+{
+  "syncItems": [
+    {
+      "date": "2026-04-01",
+      "count": 3,
+      "errorCount": 0,
+      "items": [
+        {
+          "id": "a1",
+          "title": "User import"
+        },
+        {
+          "id": "a2",
+          "title": "Order sync"
+        },
+        {
+          "id": "a3",
+          "title": "Invoice push"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "count": 4,
+      "errorCount": 1,
+      "items": [
+        {
+          "id": "b1",
+          "title": "User import"
+        },
+        {
+          "id": "b2",
+          "title": "Order sync"
+        },
+        {
+          "id": "b3",
+          "title": "Inventory update"
+        },
+        {
+          "id": "b4",
+          "title": "Webhook dispatch"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "count": 2,
+      "errorCount": 0,
+      "items": [
+        {
+          "id": "c1",
+          "title": "Billing reconciliation"
+        },
+        {
+          "id": "c2",
+          "title": "Audit log export"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "count": 5,
+      "errorCount": 2,
+      "items": [
+        {
+          "id": "d1",
+          "title": "User import"
+        },
+        {
+          "id": "d2",
+          "title": "Order sync"
+        },
+        {
+          "id": "d3",
+          "title": "Invoice push"
+        },
+        {
+          "id": "d4",
+          "title": "Email notification"
+        },
+        {
+          "id": "d5",
+          "title": "Retry queue drain"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "count": 3,
+      "errorCount": 0,
+      "items": [
+        {
+          "id": "e1",
+          "title": "Daily summary build"
+        },
+        {
+          "id": "e2",
+          "title": "Metrics upload"
+        },
+        {
+          "id": "e3",
+          "title": "Cache refresh"
+        }
+      ]
+    }
+  ]
+}
