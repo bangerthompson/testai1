@@ -1,0 +1,24 @@
+{
+  "name": "cms-ai-assistant",
+  "version": "0.1.0",
+  "description": "A dependency-light starter for a CMS-focused AI assistant.",
+  "type": "module",
+  "bin": {
+    "cms-ai-assistant": "./bin/cms-ai-assistant.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cms-ai-assistant.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cms",
+    "ai",
+    "assistant",
+    "content"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
