@@ -1,6 +1,6 @@
 import json
 import unittest
-from contextlib import redirect_stdout
+from contextlib import redirect_stderr, redirect_stdout
 from io import StringIO
 from unittest.mock import patch
 
@@ -82,13 +82,15 @@ class CLITests(unittest.TestCase):
 
     def test_main_reports_validation_errors(self) -> None:
         stdout = StringIO()
+        stderr = StringIO()
 
         with patch("sys.stdin", StringIO("{}")):
-            with redirect_stdout(stdout):
+            with redirect_stderr(stderr), redirect_stdout(stdout):
                 exit_code = main(["-"])
 
         self.assertEqual(exit_code, 1)
         self.assertEqual(stdout.getvalue(), "")
+        self.assertIn("Missing required field: title", stderr.getvalue())
 
 
 if __name__ == "__main__":

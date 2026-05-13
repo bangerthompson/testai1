@@ -19,19 +19,19 @@ be added without changing callers.
 ## Quick start
 
 ```bash
-python -m cms_ai_assistant --help
+python3 -m cms_ai_assistant --help
 ```
 
 Analyze content from a JSON file:
 
 ```bash
-python -m cms_ai_assistant examples/article.json
+python3 -m cms_ai_assistant examples/article.json
 ```
 
 Or from standard input:
 
 ```bash
-echo '{"title":"Hello","body":"Short body"}' | python -m cms_ai_assistant -
+echo '{"title":"Hello","body":"Short body"}' | python3 -m cms_ai_assistant -
 ```
 
 ## Input format
@@ -59,5 +59,5 @@ Only `title` and `body` are required.
 Run the test suite with:
 
 ```bash
-python -m unittest discover
+python3 -m unittest discover
 ```
