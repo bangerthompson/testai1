@@ -1,0 +1,12 @@
+{
+  "id": "example-article",
+  "title": "A practical guide to CMS editorial workflows",
+  "body": "CMS editorial workflows help teams plan, draft, review, approve, and publish content with fewer handoffs.\n\nA strong workflow defines ownership for every content stage and keeps feedback close to the draft. It also gives editors a shared checklist for accessibility, search optimization, and brand consistency before publication.",
+  "summary": "A practical overview of CMS editorial workflows for content teams.",
+  "metadata": {
+    "keywords": [
+      "CMS",
+      "editorial workflows"
+    ]
+  }
+}

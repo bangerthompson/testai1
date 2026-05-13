@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cms-ai-assistant"
+version = "0.1.0"
+description = "A lightweight starter assistant for CMS content analysis."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "CMS AI Assistant Contributors" }
+]
+dependencies = []
+
+[project.scripts]
+cms-ai-assistant = "cms_ai_assistant.cli:main"
