@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { initializeCmsAssistant, type AssistantProvider } from "../src";
+import { initializeCmsAssistant, type AssistantProvider } from "../src/index.js";
 
 describe("initializeCmsAssistant", () => {
   const baseContext = {
