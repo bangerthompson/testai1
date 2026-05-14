@@ -1,0 +1,39 @@
+{
+  "name": "testai1",
+  "version": "1.0.0",
+  "description": "CMS AI assistant initialization package.",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bangerthompson/testai1.git"
+  },
+  "keywords": [
+    "ai",
+    "assistant",
+    "cms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bangerthompson/testai1/issues"
+  },
+  "homepage": "https://github.com/bangerthompson/testai1#readme",
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}
