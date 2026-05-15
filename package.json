@@ -1,0 +1,21 @@
+{
+  "name": "testai1",
+  "version": "0.1.0",
+  "description": "A lightweight CMS AI assistant initialization scaffold.",
+  "type": "module",
+  "main": "src/cmsAssistant.js",
+  "bin": {
+    "cms-ai-assistant": "bin/cms-ai-assistant.js"
+  },
+  "scripts": {
+    "start": "node bin/cms-ai-assistant.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cms",
+    "ai",
+    "assistant",
+    "content"
+  ],
+  "license": "MIT"
+}
