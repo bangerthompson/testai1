@@ -94,7 +94,7 @@ function draftFromBrief(brief, config) {
       : "Flag any missing facts or claims that need editorial verification.";
 
   return [
-    `Draft a ${normalizedBrief.contentType} titled "${normalizedBrief.title}".`,
+    `Draft ${articleFor(normalizedBrief.contentType)} ${normalizedBrief.contentType} titled "${normalizedBrief.title}".`,
     `Audience: ${normalizedBrief.audience}.`,
     `Goal: ${normalizedBrief.goal}.`,
     `Tone: ${normalizedBrief.tone}. Locale: ${normalizedBrief.locale}.`,
@@ -112,6 +112,10 @@ function normalizeContentTypes(contentTypes) {
   }
 
   return Object.freeze([...new Set(normalized)]);
+}
+
+function articleFor(value) {
+  return /^[aeiou]/i.test(value) ? "an" : "a";
 }
 
 function normalizeKeywords(keywords) {
