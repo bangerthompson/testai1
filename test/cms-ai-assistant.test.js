@@ -99,7 +99,7 @@ describe("createCmsAiAssistant", () => {
       constraints: "Mention editorial review"
     });
 
-    assert.match(prompt, /Draft a article titled "CMS Assistant Launch"/);
+    assert.match(prompt, /Draft an article titled "CMS Assistant Launch"/);
     assert.match(prompt, /Target length: no more than 120 words/);
     assert.match(prompt, /Include these keywords naturally: workflow/);
     assert.match(prompt, /Editorial constraints: Mention editorial review/);
