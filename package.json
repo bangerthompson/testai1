@@ -1,0 +1,21 @@
+{
+  "name": "cms-ai-assistant",
+  "version": "0.1.0",
+  "description": "Starter toolkit for initializing a CMS AI assistant.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node examples/basic-usage.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cms",
+    "ai",
+    "assistant",
+    "content"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
